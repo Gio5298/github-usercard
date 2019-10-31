@@ -18,6 +18,21 @@ axios.get('https://api.github.com/users/Gio5298')
    Skip to Step 3.
 */
 
+function cardMaker(profileInfo){
+
+  //create elements
+    const newCard = document.createElement('div');
+    const cardPic = document.createElement('img');
+    const cardContent = document.createElement('div');
+    const cardName = document.createElement('h3');
+    const cardUserName = document.createElement('p');
+    const cardLoc = document.createElement('p');
+    const cardLink = document.createElement('p');
+    const cardFollowers = document.createElement('p');
+    const cardFollowing = document.createElement('p');
+    const cardBio = document.createElement('p');
+}
+
 /* Step 4: Pass the data received from Github into your function, 
            create a new component and add it to the DOM as a child of .cards
 */
